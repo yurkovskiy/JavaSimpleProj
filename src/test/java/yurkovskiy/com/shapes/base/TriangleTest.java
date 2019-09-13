@@ -25,6 +25,6 @@ public class TriangleTest extends TestCase {
     public void testTriangleSquare()
     {
         Triangle T = new Triangle(3.0, 4.0, 5.0);
-        assertEquals(100.0, T.square(), 0.0);
+        assertEquals(6.0, T.square(), 0.0);
     }
 }
