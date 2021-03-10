@@ -22,10 +22,10 @@ public class RectangleTest extends TestCase {
         assertEquals(40.0, R.length(), 0.0);
     }
 
-    public void testRectangleSquare()
-    {
-        Rectangle R = new Rectangle(10.0, 10.0);
-        assertEquals(100.0, R.square(), 0.0);
-    }
+        public void testRectangleSquare()
+        {
+            Rectangle R = new Rectangle(10.0, 10.0);
+            assertEquals(80, R.square(), 0.0);
+        }
 
 }
