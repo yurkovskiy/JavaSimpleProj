@@ -19,12 +19,12 @@ public class TriangleTest extends TestCase {
     public void testTriangleLength()
     {
         Triangle T = new Triangle(3.0, 4.0, 5.0);
-        assertEquals(5.0, T.length(), 0.0);
+        assertEquals(12.0, T.length(), 0.0);
     }
 
     public void testTriangleSquare()
     {
         Triangle T = new Triangle(3.0, 4.0, 5.0);
-        assertEquals(10.0, T.square(), 0.0);
+        assertEquals(6.0, T.square(), 0.0);
     }
 }
