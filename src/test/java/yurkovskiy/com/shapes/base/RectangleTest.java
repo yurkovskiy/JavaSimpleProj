@@ -26,12 +26,12 @@ public class RectangleTest extends TestCase {
 
     public void testRectangleLength2() {
         Rectangle R = new Rectangle(5.0, 2.0);
-        assertEquals(10.0, R.length(), 0.0);
+        assertEquals(14.0, R.length(), 0.0);
     }
 
     public void testRectangleSquare2() {
         Rectangle R = new Rectangle(5.0, 2.0);
-        assertEquals(8, R.square(), 0.0);
+        assertEquals(10, R.square(), 0.0);
     }
 
 }
