@@ -31,7 +31,7 @@ public class RectangleTest extends TestCase {
 
     public void testRectangleSquare2() {
         Rectangle R = new Rectangle(5.0, 2.0);
-        assertEquals(10, R.square(), 0.0);
+        assertEquals(12, R.square(), 0.0);
     }
 
 }
