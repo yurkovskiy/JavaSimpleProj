@@ -18,7 +18,7 @@ public class Triangle implements IShape {
 
     @Override
     public double square() {
-        double p = this.length() / 2;
+        double p = this.length() / 3;
         return Math.sqrt(p * (p - a) * (p - b) * (p - c));
     }
 }

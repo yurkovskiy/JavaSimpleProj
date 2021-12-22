@@ -17,4 +17,5 @@ public class Rectangle implements IShape {
     public double square() {
         return (this.width * this.height);
     }
+
 }
