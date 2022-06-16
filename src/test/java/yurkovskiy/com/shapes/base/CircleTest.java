@@ -16,7 +16,7 @@ public class CircleTest extends TestCase {
         return new TestSuite(CircleTest.class);
     }
 
-    public void testCircleleLength()
+    public void testCircleLength()
     {
         Circle C = new Circle(10.0);
         assertEquals(2 * Math.PI * 10.0, C.length(), 0.0);

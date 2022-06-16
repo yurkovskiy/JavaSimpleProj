@@ -1,10 +1,10 @@
 package yurkovskiy.com.shapes.base;
 
-public class C3DFigure {
+public class Figure {
     private IShape base;
     private double height;
 
-    public C3DFigure(IShape base, double height) {
+    public Figure(IShape base, double height) {
         this.base = base;
         this.height = height;
     }
